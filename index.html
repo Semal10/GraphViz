@@ -1,0 +1,37 @@
+  
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charse="utf-8">
+        <title>Graph Visualizer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="row">
+                <div class="nav">
+                    <h1 class="heading">GraphViz</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col graphviz">
+                    <canvas></canvas>
+                </div>
+                <div class="col sideview">
+                    <h3>Graph :</h3>
+                    <!--<p> Enter number of nodes & edges followed by the actual edges you want in your graph</p>
+                    --><textarea id="text_input" value="3 3 1 2 2 3 3 1"></textarea>
+                    <p></p>
+                    <button id="submit_button" onclick="render()">Submit</button>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <p><span="color : rgba(255,255,255,0.7); style="color : crimson;">Note : </span>If graph rendered imperfect please press submit again</p>
+            </div>
+        </div>
+    </body>
+    <script src="main.js"></script>
+    <script src="control.js"></script>
+
+</html>
